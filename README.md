@@ -1,2 +1,78 @@
 # ROUTEMATE---Your-Intelligent-Route-Planning-and-Optimization-Advisor
- ROUTEMATE - Your Intelligent Route Planning and Optimization Advisor | APP with one repo: Frontend & Backend.
+
+ROUTEMATE - Your Intelligent Route Planning and Optimization Advisor | APP with one repo: Frontend & Backend.
+
+# Project Overview
+
+# Installation
+
+## Frontend
+
+`npx create-react-app routemate-frontend-react`
+
+`node --version v21.6.1`
+
+`npm install react-router-dom`
+
+`npm install axios`
+
+### Codequalität und Formatierung
+
+`npm install eslint --save-dev`
+
+`npm install eslint-plugin-react eslint-plugin-react-hooks --save-dev`
+`npm install eslint-plugin-react eslint-plugin-react-hooks --save-dev --force`
+
+ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Menschen mit Sehbehinderungen, die Screenreader verwenden.
+`npm install eslint-plugin-jsx-a11y --save-dev`
+`npm install eslint-plugin-jsx-a11y --save-dev --force`
+
+```json
+{
+  "plugins": ["jsx-a11y"],
+  "extends": ["plugin:jsx-a11y/recommended"]
+}
+```
+
+Beispiel:
+Wenn du einen Button ohne Text erstellst:
+
+```jsx
+<button></button>
+```
+
+Das Plugin würde warnen, dass der Button keinen zugänglichen Inhalt hat und daher für Screenreader nicht nutzbar ist.
+
+`npm install prettier --save-dev`
+`npm install prettier --save-dev --force`
+
+### Konfiguration
+
+`npx eslint --init`
+
+`npm install eslint-config-prettier --save-dev`
+``npm install eslint-config-prettier --save-dev --force`
+
+Optional: Prettier mit ESLint integrieren.
+Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene Formatierungsregeln durchsetzen wollen (z. B. Einrückungen, Semikolons usw.).
+`npm install eslint-config-prettier  eslint-plugin-prettier --save-dev`
+
+`npm install eslint-config-prettier  eslint-plugin-prettier --save-dev --force`
+
+#### Prettier-Konfigurationsdatei
+
+```json
+{
+    "semi": true,          // Semikolons am Ende von Zeilen hinzufügen
+    "trailingComma": "es5", // Trailing Commas nur für ES5-kompatible Konstrukte (z.B. Arrays, Objekte)
+    "singleQuote": true,   // Einfache Anführungszeichen statt doppelte verwenden
+    "tabWidth": 2,          // Tabulatorbreite auf 2 Leerzeichen setzen
+    "printWidth": 80        // Maximale Zeilenlänge auf 80 Zeichen setzen
+  }
+```
+
+## Backend
+
+# Usage Guide
+
+# Configuration

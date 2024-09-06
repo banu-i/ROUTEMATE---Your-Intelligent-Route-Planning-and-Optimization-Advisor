@@ -1,0 +1,32 @@
+// Bevorzugte Kofiguratin Methode - Plugins bereits installiert
+
+{
+  "env": {
+    "browser": true, // Unterstützung für die Browser-Umgebung
+    "es2021": true, // Unterstützung für moderne ECMAScript-Funktionen
+  },
+  "parserOptions": {
+    "ecmaVersion": 12, // ECMAScript 2021
+    "sourceType": "module", // Unterstützung für ES-Module (Import/Export)
+    "ecmaFeatures": {
+      "jsx": true, // Unterstützung für JSX
+    },
+  },
+  "plugins": ["react", "jsx-a11y", "prettier"], // React-Plugin, JSX-Zugänglichkeit-Plugin (a11y = "accessibility") und Prettier-Plugin als Plugin hinzufügen
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended", // falls React verwendet wird
+    "plugin:jsx-a11y/recommended", // Hier ist jsx-a11y
+    "plugin:prettier/recommended", // Prettier-Regeln aktivieren
+  ],
+  "rules": {
+    "prettier/prettier": "error", // Zeigt Prettier-Formatierungsfehler als ESLint-Fehler an
+    "react/react-in-jsx-scope": "off", // React 17+ benötigt keinen Import von React in jeder Datei
+    "react/prop-types": "off", // Falls du TypeScript nutzt oder keine PropTypes benötigst
+  },
+  "settings": {
+    "react": {
+      "version": "detect", // Automatische Erkennung der React-Version
+    },
+  },
+}
