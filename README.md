@@ -71,6 +71,36 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 }
 ```
 
+### Installation von concurrently | Mono-Repo: Frontend und Backend
+
+Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.
+
+`npm install concurrently --save-dev`
+
+```json
+Hauptprojektverzeichnis:
+{
+  "scripts": {
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2" // Stelle sicher, dass du die aktuelle Version verwendest
+  }
+}
+
+Frontend:
+ "scripts": {
+    "start": "react-scripts start"
+  },
+
+Backend:
+"scripts": {
+    "start": "node index.js"
+  },
+```
+
 ## Backend
 
 `mkdir routemate-backend-express`
@@ -158,6 +188,36 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
   "tabWidth": 2, // Tabulatorbreite auf 2 Leerzeichen setzen
   "printWidth": 80 // Maximale Zeilenlänge auf 80 Zeichen setzen
 }
+```
+
+### Installation von concurrently | Mono-Repo: Frontend und Backend
+
+Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.
+
+`npm install concurrently --save-dev`
+
+```json
+Hauptprojektverzeichnis:
+{
+  "scripts": {
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2" // Stelle sicher, dass du die aktuelle Version verwendest
+  }
+}
+
+Frontend:
+ "scripts": {
+    "start": "react-scripts start"
+  },
+
+Backend:
+"scripts": {
+    "start": "node index.js"
+  },
 ```
 
 # Usage Guide
