@@ -251,7 +251,8 @@ Backend:
 
 `npm start`
 
-> Runs frontend and backend | the whole app in the development mode and in same time.
+> Runs frontend and backend | the whole app in the development mode and in same time - because of [concurrently](https://www.npmjs.com/package/concurrently)
+> (see above under "Installation")
 >
 > [frontend-README.md](./routemate-frontend-react/README.md)
 >

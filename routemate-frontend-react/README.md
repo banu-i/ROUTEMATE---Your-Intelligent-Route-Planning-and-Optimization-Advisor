@@ -10,7 +10,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-> Runs frontend and backend | the whole app in the development mode and in same time.
+> Runs frontend and backend | the whole app in the development mode and in same time - because of [concurrently](https://www.npmjs.com/package/concurrently)
+> (see above under "Installation")
 >
 > [ROUTEMATE-main-README.md](../README.md)
 >
