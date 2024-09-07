@@ -162,7 +162,7 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 `npm install eslint-plugin-jsx-a11y --save-dev`
 `npm install eslint-plugin-jsx-a11y --save-dev --force`
 
-![alt text](<carbon (7)-1.png>)
+![alt text](<carbon (7).png>)
 
 <!-- ```json
 {
