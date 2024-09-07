@@ -28,7 +28,7 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 `npm install eslint-plugin-jsx-a11y --save-dev`
 `npm install eslint-plugin-jsx-a11y --save-dev --force`
 
-![alt text](<carbon (7).png>)
+![alt text](</assets/carbon (7).png>)
 
 <!-- ```json
 {
@@ -40,7 +40,7 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 Beispiel:
 Wenn du einen Button ohne Text erstellst:
 
-![alt text](<carbon (9).png>)
+![alt text](</assets/carbon (9).png>)
 
 <!-- ```jsx
 <button></button>
@@ -67,7 +67,7 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 
 #### Prettier-Konfigurationsdatei
 
-![alt text](<carbon (10).png>)
+![alt text](</assets/carbon (10).png>)
 
 <!-- ```json
 {
@@ -87,7 +87,7 @@ Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptpr
 
 `npm install concurrently --save-dev`
 
-![alt text](<carbon (11).png>)
+![alt text](</assets/carbon (11).png>)
 
 <!-- ```json
 Hauptprojektverzeichnis:
@@ -121,7 +121,7 @@ Initialisierung - neues Node.js-Projekt
 
 `npm init -y`
 
-![alt text](<carbon (12).png>)
+![alt text](</assets/carbon (12).png>)
 
 <!-- ```javascript
 package.json
@@ -162,7 +162,7 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 `npm install eslint-plugin-jsx-a11y --save-dev`
 `npm install eslint-plugin-jsx-a11y --save-dev --force`
 
-![alt text](<carbon (7).png>)
+![alt text](</assets/carbon (7).png>)
 
 <!-- ```json
 {
@@ -174,7 +174,7 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 Beispiel:
 Wenn du einen Button ohne Text erstellst:
 
-![alt text](<carbon (9)-1.png>)
+![alt text](</assets/carbon (9)-1.png>)
 
 <!-- ```jsx
 <button></button>
@@ -201,7 +201,7 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 
 #### Prettier-Konfigurationsdatei
 
-![alt text](<carbon (10)-1.png>)
+![alt text](</assets/carbon (10)-1.png>)
 
 <!-- ```json
 {
@@ -221,7 +221,7 @@ Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptpr
 
 `npm install concurrently --save-dev`
 
-![alt text](<carbon (11)-1.png>)
+![alt text](</assets/carbon (11)-1.png>)
 
 <!-- ```json
 Hauptprojektverzeichnis:
