@@ -24,8 +24,11 @@ ROUTEMATE - Your Intelligent Route Planning and Optimization Advisor | APP with 
 `npm install eslint-plugin-react eslint-plugin-react-hooks --save-dev --force`
 
 ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Menschen mit Sehbehinderungen, die Screenreader verwenden.
+
 `npm install eslint-plugin-jsx-a11y --save-dev`
 `npm install eslint-plugin-jsx-a11y --save-dev --force`
+
+![alt text](<carbon (7).png>)
 
 ```json
 {
@@ -36,6 +39,8 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 
 Beispiel:
 Wenn du einen Button ohne Text erstellst:
+
+![alt text](<carbon (9).png>)
 
 ```jsx
 <button></button>
@@ -51,17 +56,18 @@ Das Plugin würde warnen, dass der Button keinen zugänglichen Inhalt hat und da
 `npx eslint --init`
 
 `npm install eslint-config-prettier --save-dev`
-``npm install eslint-config-prettier --save-dev --force`
+`npm install eslint-config-prettier --save-dev --force`
 
 Optional: Prettier mit ESLint integrieren.
 Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene Formatierungsregeln durchsetzen wollen (z. B. Einrückungen, Semikolons usw.).
+
 `npm install eslint-config-prettier  eslint-plugin-prettier --save-dev`
 
 `npm install eslint-config-prettier  eslint-plugin-prettier --save-dev --force`
 
 #### Prettier-Konfigurationsdatei
 
-<span style="color:red">
+![alt text](<carbon (10).png>)
 
 ```json
 {
@@ -73,13 +79,14 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 }
 ```
 
-</span>
-
 ### Installation von concurrently | Mono-Repo: Frontend und Backend
 
-Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.
+<span style="color:#007fff">
+Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.</span>
 
 `npm install concurrently --save-dev`
+
+![alt text](<carbon (11).png>)
 
 ```json
 Hauptprojektverzeichnis:
@@ -110,7 +117,10 @@ Backend:
 `mkdir routemate-backend-express`
 
 Initialisierung - neues Node.js-Projekt
+
 `npm init -y`
+
+![alt text](<carbon (12).png>)
 
 ```javascript
 package.json
@@ -147,8 +157,11 @@ package.json
 `npm install eslint-plugin-react eslint-plugin-react-hooks --save-dev --force`
 
 ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Menschen mit Sehbehinderungen, die Screenreader verwenden.
+
 `npm install eslint-plugin-jsx-a11y --save-dev`
 `npm install eslint-plugin-jsx-a11y --save-dev --force`
+
+![alt text](<carbon (7)-1.png>)
 
 ```json
 {
@@ -159,6 +172,8 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 
 Beispiel:
 Wenn du einen Button ohne Text erstellst:
+
+![alt text](<carbon (9)-1.png>)
 
 ```jsx
 <button></button>
@@ -174,15 +189,18 @@ Das Plugin würde warnen, dass der Button keinen zugänglichen Inhalt hat und da
 `npx eslint --init`
 
 `npm install eslint-config-prettier --save-dev`
-``npm install eslint-config-prettier --save-dev --force`
+`npm install eslint-config-prettier --save-dev --force`
 
 Optional: Prettier mit ESLint integrieren.
 Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene Formatierungsregeln durchsetzen wollen (z. B. Einrückungen, Semikolons usw.).
+
 `npm install eslint-config-prettier  eslint-plugin-prettier --save-dev`
 
 `npm install eslint-config-prettier  eslint-plugin-prettier --save-dev --force`
 
 #### Prettier-Konfigurationsdatei
+
+![alt text](<carbon (10)-1.png>)
 
 ```json
 {
@@ -196,9 +214,12 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 
 ### Installation von concurrently | Mono-Repo: Frontend und Backend
 
-Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.
+<span style="color:#007fff">
+Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.</span>
 
 `npm install concurrently --save-dev`
+
+![alt text](<carbon (11)-1.png>)
 
 ```json
 Hauptprojektverzeichnis:
