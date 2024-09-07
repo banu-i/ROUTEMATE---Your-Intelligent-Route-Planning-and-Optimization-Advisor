@@ -247,7 +247,22 @@ Backend:
   },
 ``` -->
 
-# Tools
+# Getting Started
+
+`npm start`
+
+> Runs frontend and backend | the whole app in the development mode and in same time.
+>
+> [frontend-README.md](./routemate-frontend-react/README.md)
+>
+> [backend-README.md](./routemate-backend-express/README.md)
+
+> Open http://localhost:3030 to view it in the browser.
+
+> The page will reload if you make edits.
+> You will also see any lint errors in the console.
+
+# Tools - built with
 
 ## Frontend Tools
 
@@ -301,3 +316,5 @@ Backend:
 # Usage Guide
 
 # Configuration
+
+# Documentations

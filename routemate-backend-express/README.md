@@ -1,4 +1,4 @@
-<!-- README.md - routemate-frontend-express -->
+<!-- README.md - routemate-backend-express -->
 
 # Getting Started with Create React App
 
@@ -14,7 +14,7 @@ In the project directory, you can run:
 >
 > [ROUTEMATE-main-README.md](../README.md)
 >
-> [backend-README.md](./routemate-backend-express/README.md)
+> [frontend-README.md](./routemate-frontend-react/README.md)
 
 > Open [http://localhost:3030](http://localhost:3030) to view it in your browser.
 
