@@ -30,21 +30,21 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 
 ![alt text](<carbon (7).png>)
 
-```json
+<!-- ```json
 {
   "plugins": ["jsx-a11y"],
   "extends": ["plugin:jsx-a11y/recommended"]
 }
-```
+``` -->
 
 Beispiel:
 Wenn du einen Button ohne Text erstellst:
 
 ![alt text](<carbon (9).png>)
 
-```jsx
+<!-- ```jsx
 <button></button>
-```
+``` -->
 
 Das Plugin würde warnen, dass der Button keinen zugänglichen Inhalt hat und daher für Screenreader nicht nutzbar ist.
 
@@ -69,7 +69,7 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 
 ![alt text](<carbon (10).png>)
 
-```json
+<!-- ```json
 {
   "semi": true, // Semikolons am Ende von Zeilen hinzufügen
   "trailingComma": "es5", // Trailing Commas nur für ES5-kompatible Konstrukte (z.B. Arrays, Objekte)
@@ -77,18 +77,19 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
   "tabWidth": 2, // Tabulatorbreite auf 2 Leerzeichen setzen
   "printWidth": 80 // Maximale Zeilenlänge auf 80 Zeichen setzen
 }
-```
+``` -->
 
 ### Installation von concurrently | Mono-Repo: Frontend und Backend
 
 <span style="color:#007fff">
 Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.</span>
+<br></br>
 
 `npm install concurrently --save-dev`
 
 ![alt text](<carbon (11).png>)
 
-```json
+<!-- ```json
 Hauptprojektverzeichnis:
 {
   "scripts": {
@@ -110,7 +111,7 @@ Backend:
 "scripts": {
     "start": "node index.js"
   },
-```
+``` -->
 
 ## Backend
 
@@ -122,7 +123,7 @@ Initialisierung - neues Node.js-Projekt
 
 ![alt text](<carbon (12).png>)
 
-```javascript
+<!-- ```javascript
 package.json
 
 {
@@ -137,7 +138,7 @@ package.json
   "author": "",
   "license": "ISC"
 }
-```
+``` -->
 
 `npm install express`
 
@@ -163,21 +164,21 @@ ESLint-Plugin für JSX-Zugänglichkeit (a11y = "accessibility") z. B. für Mensc
 
 ![alt text](<carbon (7)-1.png>)
 
-```json
+<!-- ```json
 {
   "plugins": ["jsx-a11y"],
   "extends": ["plugin:jsx-a11y/recommended"]
 }
-```
+``` -->
 
 Beispiel:
 Wenn du einen Button ohne Text erstellst:
 
 ![alt text](<carbon (9)-1.png>)
 
-```jsx
+<!-- ```jsx
 <button></button>
-```
+``` -->
 
 Das Plugin würde warnen, dass der Button keinen zugänglichen Inhalt hat und daher für Screenreader nicht nutzbar ist.
 
@@ -202,7 +203,7 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
 
 ![alt text](<carbon (10)-1.png>)
 
-```json
+<!-- ```json
 {
   "semi": true, // Semikolons am Ende von Zeilen hinzufügen
   "trailingComma": "es5", // Trailing Commas nur für ES5-kompatible Konstrukte (z.B. Arrays, Objekte)
@@ -210,18 +211,19 @@ Dadurch verhinderst du Konflikte, bei denen ESLint und Prettier verschiedene For
   "tabWidth": 2, // Tabulatorbreite auf 2 Leerzeichen setzen
   "printWidth": 80 // Maximale Zeilenlänge auf 80 Zeichen setzen
 }
-```
+``` -->
 
 ### Installation von concurrently | Mono-Repo: Frontend und Backend
 
 <span style="color:#007fff">
 Die bevorzugte Methode, da sie es ermöglicht, von einem zentralen Ort | Hauptprojektverzeichnis aus mehrere Skripte zu verwalten.</span>
+<br></br>
 
 `npm install concurrently --save-dev`
 
 ![alt text](<carbon (11)-1.png>)
 
-```json
+<!-- ```json
 Hauptprojektverzeichnis:
 {
   "scripts": {
@@ -243,7 +245,7 @@ Backend:
 "scripts": {
     "start": "node index.js"
   },
-```
+``` -->
 
 # Tools
 
