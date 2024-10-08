@@ -22,14 +22,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run, start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd frontend && npm start",
-    "start:backend": "cd backend && npm start",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd routemate-frontend-react && npm start",
+    "start:backend": "cd routemate-backend-express && npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-disabled": "react-scripts start"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
