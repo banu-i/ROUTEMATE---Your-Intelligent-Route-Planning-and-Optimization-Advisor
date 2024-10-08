@@ -1,1 +1,1 @@
-import styles from './HomePage.module.css';
+import styles './HomePage.module.css';
