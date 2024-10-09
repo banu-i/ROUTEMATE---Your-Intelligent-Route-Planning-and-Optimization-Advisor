@@ -2,7 +2,34 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
   margin-top: 200px;
   background: #fff;
   padding-bottom: 30px;
+}
+
+.loginSignupInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.loginSignupInput input {
+  padding-left: 40px; /* Platz für das Icon */
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.userIcon {
+  position: absolute;
+  width: 16px; /* Größe des Icons (anpassen ggf.) */
+  height: 16px;
+  margin-left: 10px; /* Abstand zum Rand des Input-Feldes */
+  margin-top: 10px; /* Abstand zum oberer Rand des Input-Feldes */
+}
+
+.loginSignupInput {
+  position: relative; /* Damit das Icon innerhalb des Input-Feldes positioniert werden kann */
 }
