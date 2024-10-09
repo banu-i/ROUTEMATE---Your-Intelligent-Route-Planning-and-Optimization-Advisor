@@ -10,7 +10,8 @@ const LogInSignUpPage = () => {
     <div className={styles.loginSignupContainer}>
       <div className={styles.loginSignupHeader}>
         <div className={styles.loginSignupText}>Sign Up</div>
-        <div className={styles.loginSignupText}>Login</div>
+        <div className={styles.underline}></div>
+        {/* <div className={styles.loginSignupText}>Login</div> */}
       </div>
       <div className={styles.loginSignupInputs}>
         <div className={styles.loginSignupInput}>
