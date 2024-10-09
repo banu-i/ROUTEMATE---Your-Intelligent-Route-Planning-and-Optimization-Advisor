@@ -15,20 +15,20 @@ body {
   flex-direction: column;
   margin: auto;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 50px;
   background: #fff;
   padding-bottom: 30px;
   padding: 20px;
-  width: 100px;
+  width: 100%;
   max-width: 400px; /*maximalbreite für Desktop*/
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /*leichter Schatten*/
 }
 
 .loginSignupHeader {
   display: flex;
-  /* justify-content: space-between; */
+  /* justify-content: space-between; */ /*ggf. löschen*/
   flex-direction: column; /*Text und Unterschrich werden gestapelt*/
-  align-items: flex-end; /* Ausrichten nach rechts*/
+  align-items: center; /* mittig Ausrichten */
   width: 100%;
   padding: 20px 0;
 }
@@ -37,74 +37,139 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #3c009d;
-  margin-right: 20px;
+  /* margin-right: 20px; */ /*ggf. löschen*/
 
-  /*old style:*/
+  /*old style:*/ /*ggf. löschen*/
   /* color: #333; */
   /* font-size: 24px; */
 }
 
 .underline {
-  width: calc(100% - 295px);
+  width: calc(100% - 320px);
+  /* width: 100%;
+  max-width: 150px; */
   height: 2px;
   background: #3c009d;
-  margin-top: 2px;
+  margin-top: 5px;
   margin-right: 10px;
   margin-left: 0;
   position: relative;
-  left: -10px;
+  left: -2px;
   /* border-radius: 9px; */
 }
 
+/* Inputs Section */
 .loginSignupInputs {
   width: 100%;
+  max-width: 480px; /*maximalbreite der Input-Sektion*/
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
+/* Input Container Styling */
 .loginSignupInput {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   position: relative; /* Damit das Icon innerhalb des Input-Feldes positioniert werden kann */
+  margin: auto;
+  /* width: 480px; */ /*ggf. löschen*/
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+  padding: 15px; /* Padding hinzugefügt für bessere Ausrichtung */
+  box-sizing: border-box;
 }
 
 .loginSignupInput input {
+  flex-grow: 1; /*Input nimmt den gesamten verfügbaren Platz ein*/
   padding-left: 40px; /* Platz für das Icon */
   width: 100%;
   height: 40px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */ /*ggf. löschen*/
   border-radius: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #797979;
+}
+
+/* Icon Styling */
+.loginSignupInputs img {
+  /* margin: 0px 30px; */
+  width: 24px; /* Icon-Größe angepasst */
+  height: 24px;
+  margin-right: 15px; /* Abstand zwischen Icon und Input */
+}
+
+.loginSignupInputs input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
 }
 
 .userIcon {
-  position: absolute;
+  /* position: absolute;
   width: 16px; /* Größe des Icons (anpassen ggf.) */
   height: 16px;
   margin-left: 10px; /* Abstand zum Rand des Input-Feldes */
-  /*margin-top: 10px; /* Abstand zum oberer Rand des Input-Feldes */
+  /*margin-top: 10px; Abstand zum oberer Rand des Input-Feldes */
 }
 
 .forgotPassword {
   margin-top: 10px;
-  color: #007bff;
+  /* padding-left: 50px; */
+  padding-right: 44%;
+  font-size: 18px;
+  /* color: #007bff; */
+  color: #797979;
+  text-align: right;
+  /* cursor: pointer; */
+}
+
+.forgotPassword span {
+  color: #4c00b4;
   cursor: pointer;
 }
 
+/* Submit Buttons */
 .submitContainer {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 20px;
+  /* gap: 30px; */
+  /* margin-top: 60px auto; */ /*ggf. löschen*/
+  max-width: 100%;
+  margin-top: 30px;
 }
 
 .submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 59px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px; /*butten eckig-seitlich stark abgerundet*/
+  font-size: 19px;
+  font-weight: 500;
   width: 48%;
   padding: 10px;
-  background-color: #007bff;
   color: white;
   text-align: center;
-  border-radius: 5px;
   cursor: pointer;
   margin-right: 6px;
+  /* background-color: #007bff; */
+  /* border-radius: 5px; */ /*butten eckig*/
 }
 
 .submit:last-child {
