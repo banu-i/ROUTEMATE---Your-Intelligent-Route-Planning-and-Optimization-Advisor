@@ -1,3 +1,15 @@
+/* Hintergrund für den gesamten Body */
+body {
+  margin: 0; /* Margin auf 0, um unerwünschte Abstände zu vermeiden */
+  height: 100vh; /* Sicherstellen, dass der Body die gesamte Höhe des Viewports einnimmt */
+  background: linear-gradient(#2a00b7, #42006c); /* Linearer Farbverlauf */
+  display: flex; /* Flexbox für zentrierten Inhalt */
+  justify-content: center; /* Zentriere horizontal */
+  align-items: center; /* Zentriere vertikal */
+}
+
+/* Allgemeines Styling für alle Bildschirmgrößen */
+
 .loginSignupContainer {
   display: flex;
   flex-direction: column;
@@ -6,7 +18,10 @@
   margin-top: 200px;
   background: #fff;
   padding-bottom: 30px;
-  width: 300px;
+  padding: 20px;
+  width: 100px;
+  max-width: 400px; /*maximalbreite für Desktop*/
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /*leichter Schatten*/
 }
 
 .loginSignupHeader {
@@ -70,4 +85,78 @@
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 6px;
+}
+
+.submit:last-child {
+  margin-right: 0; /* Damit der letzte Button keinen zusätzlichen Rand hat */
+}
+
+/* Breakpoints */
+
+/* Großes Display: Desktops ab 1200px */
+@media (min-width: 1200px) {
+  .loginSignupContainer {
+    width: 400px; /* Fixiert die Breite auf größeren Bildschirmen */
+    margin-top: 150px;
+  }
+
+  .loginSignupText {
+    font-size: 28px;
+  }
+
+  .submitContainer {
+    justify-content: space-evenly;
+  }
+
+  .submit {
+    width: 45%;
+  }
+}
+
+/* Mittleres Display: Tablets und kleinere Desktops (768px bis 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .loginSignupContainer {
+    width: 90%; /* Passt die Breite auf 90% an, damit der Inhalt auf Tablets besser passt */
+    margin-top: 100px;
+  }
+
+  .loginSignupText {
+    font-size: 24px;
+  }
+
+  .submit {
+    width: 48%;
+  }
+}
+
+/* Kleines Display: Smartphones und kleine Tablets (maximal 767px) */
+@media (max-width: 767px) {
+  .loginSignupContainer {
+    width: 95%; /* Fast die gesamte Bildschirmbreite für mobile Geräte */
+    margin-top: 50px;
+  }
+
+  .loginSignupText {
+    font-size: 20px;
+    text-align: center; /* Zentriert den Text auf kleinen Bildschirmen */
+  }
+
+  .loginSignupInput input {
+    height: 35px; /* Kleinere Eingabefelder für mobile Geräte */
+  }
+
+  .submitContainer {
+    flex-direction: column; /* Stapelt Buttons untereinander */
+    align-items: center;
+  }
+
+  .submit {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .forgotPassword {
+    font-size: 14px;
+  }
 }
