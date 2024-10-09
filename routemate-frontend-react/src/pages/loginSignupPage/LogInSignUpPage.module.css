@@ -6,12 +6,31 @@
   margin-top: 200px;
   background: #fff;
   padding-bottom: 30px;
+  width: 300px;
+}
+
+.loginSignupHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.loginSignupText {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.loginSignupInputs {
+  width: 100%;
 }
 
 .loginSignupInput {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  position: relative; /* Damit das Icon innerhalb des Input-Feldes positioniert werden kann */
 }
 
 .loginSignupInput input {
@@ -27,9 +46,28 @@
   width: 16px; /* Größe des Icons (anpassen ggf.) */
   height: 16px;
   margin-left: 10px; /* Abstand zum Rand des Input-Feldes */
-  margin-top: 10px; /* Abstand zum oberer Rand des Input-Feldes */
+  /*margin-top: 10px; /* Abstand zum oberer Rand des Input-Feldes */
 }
 
-.loginSignupInput {
-  position: relative; /* Damit das Icon innerhalb des Input-Feldes positioniert werden kann */
+.forgotPassword {
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit {
+  width: 48%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
 }

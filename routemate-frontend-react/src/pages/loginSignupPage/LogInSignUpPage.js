@@ -7,35 +7,35 @@ import password_icon from '../../components/assets/password_icon.png';
 
 const LogInSignUpPage = () => {
   return (
-    <div className="loginSignupContainer">
-      <div className="loginSignupHeader">
-        <div className="loginSignupText">Sign Up</div>
-        <div className="loginSignupText">Sign Up</div>
+    <div className={styles.loginSignupContainer}>
+      <div className={styles.loginSignupHeader}>
+        <div className={styles.loginSignupText}>Sign Up</div>
+        <div className={styles.loginSignupText}>Login</div>
       </div>
-      <div className="loginSignupInputs">
-        <div className="loginSignupInput">
+      <div className={styles.loginSignupInputs}>
+        <div className={styles.loginSignupInput}>
           <img className={styles.userIcon} src={user_icon} alt="User Icon" />
-          <input type="text" />
+          <input type="text" placeholder="Username" />
         </div>
-        <div className="loginSignupInput">
+        <div className={styles.loginSignupInput}>
           <img className={styles.userIcon} src={email_icon} alt="E-Mail Icon" />
-          <input type="email" />
+          <input type="email" placeholder="Email" />
         </div>
-        <div className="loginSignupInput">
+        <div className={styles.loginSignupInput}>
           <img
             className={styles.userIcon}
             src={password_icon}
             alt="Password Icon"
           />
-          <input type="password" />
+          <input type="password" placeholder="Password" />
         </div>
       </div>
-      <div className="forgotPassword">
+      <div className={styles.forgotPassword}>
         Lost Password? <span>Click Here!</span>
       </div>
-      <div className="submitContainer">
-        <div className="submit">Sign Up</div>
-        <div className="submit">Login</div>
+      <div className={styles.submitContainer}>
+        <div className={styles.submit}>Sign Up</div>
+        <div className={styles.submit}>Login</div>
       </div>
     </div>
   );
