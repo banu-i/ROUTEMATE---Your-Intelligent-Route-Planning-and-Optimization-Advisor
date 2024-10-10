@@ -176,6 +176,12 @@ body {
   margin-right: 0; /* Damit der letzte Button keinen zusätzlichen Rand hat */
 }
 
+.gray {
+  /* background-color: gray; */
+  background: #eaeaea;
+  color: #676767;
+}
+
 /* Breakpoints */
 
 /* Großes Display: Desktops ab 1200px */
@@ -238,6 +244,12 @@ body {
   .submit {
     width: 90%;
     margin-bottom: 10px;
+  }
+
+  .gray {
+    /* background-color: gray; */
+    background: #eaeaea;
+    color: #676767;
   }
 
   .forgotPassword {
